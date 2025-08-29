@@ -1,4 +1,4 @@
-### 快速导航
+### USDO - cUSDO 快速导航
 
 - **USDO（可升级 ERC-20 + Permit + 份额记账）**  
   - 作用 可升级的 ERC-20 代币，实现 EIP-2612 Permit，内部以份额记账并通过 `bonusMultiplier` 映射为对外余额；支持暂停/封禁与基于角色的权限控制
@@ -20,10 +20,25 @@
   - 关联 可将 `USDO/cUSDO` 等资产纳入 CCIP 流转规则；按需通过代理承载升级 
   - 文档 [`EVM2EVMOffRamp/README.md`](EVM2EVMOffRamp/README.md)
 
----
 
 ### 合约关系速览
 
 - **USDO ↔ cUSDO** `cUSDO` 将 `USDO` 作为底层资产的 ERC-4626 金库；暂停与封禁联动
 - **代理基建 ↔ USDO/cUSDO** 使用 EIP-1967/Transparent/Beacon/UUPS 进行可升级部署与运维
 - **EVM2EVMOffRamp ↔ 资产** 在跨链转移中按配置释放/铸造目标链资产（可包含 USDO/cUSDO）
+
+---
+
+### TBILL Vault 快速导航
+
+- **TBILL Vault（OpenEden TBILL 份额金库）**  
+
+
+- **TBILL Vault ERC1967Proxy（TBILL 代理/升级基建说明）**  
+
+
+- **TBILL Price Oracle（价格喂价）**  
+
+
+- **KYC Manager（地址合规模块）**  
+
