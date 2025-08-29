@@ -10,7 +10,7 @@
 - **三者关系简述**: 
   - **Proxy**: 提供透明代理/Beacon/UUPS 等升级与所有权管理基建 
   - **USDO**: 可由 Proxy 承载的核心代币逻辑 基于 UUPS/AccessControl/Pausable/Permit 
-  - **cUSDO**: USDO 的 ERC-4626 包装 暂停/封禁与 USDO 联动 亦可由 Proxy 承载部署
+  - **cUSDO**: USDO 的 ERC-4626 包装 暂停/封禁与 USDO 联动
 
   ---
 
