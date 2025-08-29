@@ -12,7 +12,7 @@
 
 - **OpenEden Open Dollar (USDO) (Proxy)（代理/升级基建）**  
   - 作用 基于 OpenZeppelin 的可升级基建，提供 EIP-1967、Transparent Proxy、Beacon 等组件与 `ProxyAdmin` 管理
-  - 关联 用于承载并升级 `USDO`、`cUSDO` 等实现合约；与 UUPS 升级模式相互兼容
+  - 关联 用于承载并升级 `USDO`、实现合约；与 UUPS 升级模式相互兼容
   - 文档 [`OpenEden Open Dollar (USDO) (Proxy)/README.md`](OpenEden%20Open%20Dollar%20(USDO)%20(Proxy)/README.md)
 
 - **EVM2EVMOffRamp（Chainlink CCIP 目标链执行端）**  
