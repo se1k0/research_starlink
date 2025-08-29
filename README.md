@@ -24,7 +24,7 @@
 ### 合约关系速览
 
 - **USDO ↔ cUSDO** `cUSDO` 将 `USDO` 作为底层资产的 ERC-4626 金库；暂停与封禁联动
-- **代理基建 ↔ USDO/cUSDO** 使用 EIP-1967/Transparent/Beacon/UUPS 进行可升级部署与运维
+- **PROXY ↔ USDO** 使用 EIP-1967/Transparent/Beacon/UUPS 进行可升级部署与运维
 - **EVM2EVMOffRamp ↔ 资产** 在跨链转移中按配置释放/铸造目标链资产（可包含 USDO/cUSDO）
 
 ---
