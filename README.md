@@ -37,8 +37,8 @@
   - 文档 [`TBILL Vault/README.md`](TBILL%20Vault/README.md) ・ [`TBILL 在线文档精要`](TBILL%20Vault/TBILL_Online_Docs_Summary.md)
 
 - **TBILL Vault ERC1967Proxy（TBILL 代理/升级基建说明）**  
-  - 作用 说明 TBILL Vault 与 EIP-1967/Transparent/Beacon/UUPS 的关系与部署/升级建议
-  - 关联 为 `TBILL Vault` 的生产部署提供推荐的代理栈与运维指引
+  - 作用 基于 OpenZeppelin 的可升级基建，提供 EIP-1967、Transparent Proxy、Beacon 等组件
+  - 关联 用于承载并升级 `TBILL Vault` 、实现合约；与 UUPS 升级模式相互兼容
   - 文档 [`TBILL Vault ERC1967Proxy/README.md`](TBILL%20Vault%20ERC1967Proxy/README.md)
 
 - **TBILL Price Oracle（价格喂价）**  
